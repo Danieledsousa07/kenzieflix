@@ -8,60 +8,49 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap");
     </style>
-    <link rel="stylesheet" href="/css/style.css" />
-   </head>
-   
-  <body class="background">
-    <main class="main">
-      <header class="header">
-        <img src="/img/logo 1.png" />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <main>
+      <header class="cabecalho">
+        <img src="./img/logo 1.png" alt="logo Kenzieflix">
+        <h1>Quem está assistindo?</h1>
       </header>
-      
-      <h1 class="pergunta">Quem esta assistindo?</h1>
 
       <div class="container">
-        <section class="quadrado">
-          <div class="zoom">
-            <img src="/img/avatar1 (1).png" alt="" />
-          </div>
-          <div class="zoom">
-            <a href="#" class="usuarios">Aline</a>
-          </div>
-        </section>
+        <div class="quadrado">
+          <img
+            class="quadrado__img"
+            src="./img/avatar1 (1).png"
+            alt="imagem do usuario">
+          <a href="#">Aline</a>
+        </div>
 
-        <section class="quadrado">
-          <div class="zoom">
-            <img src="/img/avatar1.png" alt="" />
-          </div>
-          <div class="zoom">
-            <div class="zoom">
-              <a href="#" class="usuarios">Pedrinho</a>
-            </div>
-          </div>
-        </section>
+        <div class="quadrado">
+          <img
+            class="quadrado__img"
+            src="./img/avatar1 (2).png"
+            alt="imagem do usuario">
+          <a href="#">Pedrinho</a>
+        </div>
+        <div class="quadrado">
+          <img
+            class="quadrado__img"
+            src="./img/avatar1.png"
+            alt="imagem do usuario">
+          <a href="#">Júlio</a>
+        </div>
 
-        <section class="quadrado">
-          <div class="zoom">
-            <img class="imagem" src="/img/avatar1 (2).png" alt="" />
-          </div>
-          <div class="zoom">
-            <a href="#" class="usuarios">Julio</a>
-          </div>
-        </section>
-
-        <section class="quadrado">
-          <div class="zoom">
-            <img src="/img/Frame 5.png" alt="" />
-          </div>
-          <div class="zoom">
-            <a href="#" class="usuarios">Adicionar perfil</a>
-          </div>
-        </section>
+        <div class="quadrado">
+          <img
+            class="quadrado__img"
+            src="./img/Frame 5.png"
+            alt="imagem do usuario">
+          <a href="#">Adicionar perfil</a>
+        </div>
       </div>
-
-      <section class="botao">
-        <a class="link" href="#">Gerenciar perfis</a>
-      </section>
+      <button>Gerenciar perfis</button>
     </main>
   </body>
 </html>
